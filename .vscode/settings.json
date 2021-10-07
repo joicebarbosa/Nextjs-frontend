@@ -1,0 +1,20 @@
+{
+    "docker.containers.description": [
+        "ContainerName",
+        "Status",
+        "Compose Project Name"
+    ],
+    "docker.commands.composeUp": [
+        {
+            "label": "Compose Up",
+            "template": "docker-compose ${configurationFile} up ${detached} ${build}",
+            "contextTypes": [
+                "moby"
+            ]
+        },
+        {
+            "label": "Compose Up",
+            "template": "docker compose ${configurationFile} up ${detached}"
+        }
+    ]
+}

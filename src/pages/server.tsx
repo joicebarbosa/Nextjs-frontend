@@ -12,4 +12,4 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
       name: "Luiz Carlos",
     },
   };
-};
+}
